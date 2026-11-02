@@ -1,7 +1,7 @@
 // Skill Quest service worker (generated at build time by vite.config.js).
 // Precaches the whole app — every subject — so it works offline after the first visit.
-const VERSION = 'd68799c7d6be';
-const PRECACHE = ["./","./assets/index-C2l5bUiP.css","./assets/subject-english-BPB3_pTp.js","./assets/subject-history-DPoodqz4.js","./assets/subject-math-U5PK-vnR.js","./assets/subject-science-CaFlGQlr.js","./assets/index-BMiDujnv.js","./assets/questions-6TWebNMd.js","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./apple-touch-icon.png"];
+const VERSION = '3f8d20f24996';
+const PRECACHE = ["./","./assets/index-DsM3zjMs.css","./assets/subject-english-BPB3_pTp.js","./assets/subject-history-DPoodqz4.js","./assets/subject-math-U5PK-vnR.js","./assets/subject-science-CaFlGQlr.js","./assets/index-CoS7Qfi9.js","./assets/questions-D0c6xez4.js","./manifest.webmanifest","./icon.svg","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./apple-touch-icon.png"];
 const CACHE = `skill-quest-${VERSION}`;
 
 self.addEventListener('install', (event) => {
